@@ -1,0 +1,29 @@
+{
+  "name": "professor-chaos",
+  "version": "0.0.1",
+  "description": "non-life-threatening chaos in your programs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrejewski/professor-chaos.git"
+  },
+  "keywords": [
+    "chaos",
+    "random",
+    "crash",
+    "test",
+    "error"
+  ],
+  "author": "Chris Andrejewski <christopher.andrejewski@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrejewski/professor-chaos/issues"
+  },
+  "homepage": "https://github.com/andrejewski/professor-chaos#readme",
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}
