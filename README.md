@@ -40,7 +40,7 @@ function handler(value1, value2, callback) {
 
 ## Methods
 
-### timer()
+### timer
 
 ```js
 /*
@@ -55,7 +55,7 @@ Returns the `setTimeout` ID to allow you to use `clearTimeout` if necessary.
 
 This function will asynchronously throw an error some time between `min` and `max`.
 
-### fault()
+### fault
 
 ```js
 /*
@@ -71,7 +71,7 @@ Returns a `Fault` object.
 This method creates a `Fault` object to be used inside the scope of a given function
  to create an error to then either throw or pass to a provided callback.
 
-```
+```js
 /*
 interface Fault {
   hasError(): boolean
